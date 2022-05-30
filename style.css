@@ -1,7 +1,7 @@
 body {
     background: #f4d3db;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     display: auto;
   }
   div::after {
@@ -13,7 +13,7 @@ body {
     bottom: 0;
     right: 0;
     position: fixed;
-    z-index: -1;   
+    z-index: -1;
   } 
   h1, h2 {
       text-align: center;
@@ -23,9 +23,11 @@ body {
       color:darkmagenta
   } 
   img {
-      align-content: right;
-      
-  }
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
   p {
       font-size: x-large;
 
